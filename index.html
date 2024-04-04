@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-......................." crossorigin="anonymous" />
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Header Section -->
+    <header class="bg-blue-500 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Vento Blog</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:underline">Home</a></li>
+                    <li><a href="#" class="hover:underline">About</a></li>
+                    <li><a href="#" class="hover:underline">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Featured Posts Section -->
+    <section class="container mx-auto mt-8">
+        <h2 class="text-xl font-semibold mb-4">Featured Posts</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Featured Post 1 -->
+            <a href="https://punchng.com/breaking-efcc-arrests-bobrisky-for-naira-abuse/"><div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="https://cdn.punchng.com/wp-content/uploads/2024/04/04113643/Bobrisky-313x277.jpg" alt="Featured Post" class="w-full h-40 object-cover mb-4 rounded">
+                <h3 class="text-lg font-semibold mb-2">HEADLINES</h3>
+                <p class="text-gray-600">Breaking: EFCC arrest bobrisky for naira abuse</p>
+            </div></a>
+            <!-- Featured Post 2 -->
+            <a href="https://punchng.com/chelsea-vs-man-utd-palmer-fernandes-battle-in-must-win-rivalry/"><div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="https://cdn.punchng.com/wp-content/uploads/2024/04/04105627/Palmer-and-Fernandes-e1712224585992.jpg" alt="Featured Post" class="w-full h-40 object-cover mb-4 rounded">
+                <h3 class="text-lg font-semibold mb-2">HEADLINES</h3>
+                <p class="text-gray-600">Chelsea vs Man Utd: Palmer, Fernandes battle in must-win rivalry</p>
+            </div></a>
+            <!-- Featured Post 3 -->
+            <a href="https://punchng.com/again-fire-guts-borno-market/"><div class="bg-white p-4 rounded-lg shadow-md">
+                <img src="https://cdn.punchng.com/wp-content/uploads/2024/04/04101411/Gamboru-market-fire-e1712222050170.jpg" alt="Featured Post" class="w-full h-40 object-cover mb-4 rounded">
+                <h3 class="text-lg font-semibold mb-2">HEADLINES</h3>
+                <p class="text-gray-600">Breaking: Again, fire guts Borno <br> market</p>
+            </div></a>
+        </div>
+    </section>
+
+    <!-- Category Section -->
+    <section class="container mx-auto mt-8">
+        <h2 class="text-xl font-semibold mb-4">Categories</h2>
+        <div>
+            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded mr-2 mb-2 hover:bg-blue-500">SPORTS</span>
+            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded mr-2 mb-2 hover:bg-blue-500">POLITICS</span>
+            <span class="bg-gray-200 text-gray-700 px-2 py-1 rounded mr-2 mb-2 hover:bg-blue-500">BUSINESS</span>
+        </div>
+    </section>
+
+    <!-- Recent Posts Section -->
+    <section class="container mx-auto mt-8">
+        <h2 class="text-xl font-semibold mb-4">Recent Posts</h2>
+        <ul>
+            <li class="mb-2">
+                <a href="https://punchng.com/full-list-ikedc-unveils-lagos-areas-enjoying-20-24-hours-power-supply/" class="text-blue-500 hover:underline">IKEDC unveils Lagos areas enjoying 20-24 hours power supply</a>
+                <span class="text-gray-500 text-sm ml-2">April 1, 2024</span>
+            </li>
+            <li class="mb-2">
+                <a href="https://punchng.com/student-loan-fg-plans-pilot-scheme-for-public-institutions/" class="text-blue-500 hover:underline">Student Loan: FG plans pilot scheme for public institutions</a>
+                <span class="text-gray-500 text-sm ml-2">March 30, 2024</span>
+            </li>
+            <li class="mb-2">
+                <a href="https://punchng.com/us-offers-help-as-nine-die-1000-injured-in-taiwan-earthquake/" class="text-blue-500 hover:underline">US offers help as nine die, 1,000 injured in Taiwan earthquake</a>
+                <span class="text-gray-500 text-sm ml-2">March 28, 2024</span>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Newsletter Subscription Form -->
+    <section class="container mx-auto mt-8">
+        <h2 class="text-xl font-semibold mb-4">Subscribe to Our Newsletter</h2>
+        <form class="flex items-center">
+            <input type="email" placeholder="Enter your email" class="border border-gray-300 rounded-l py-2 px-4 focus:outline-none" required>
+            <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-r hover:bg-blue-600 focus:outline-none">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div>
+                <h3 class="text-lg font-semibold">Connect With Us</h3>
+                <ul class="flex space-x-4 mt-2">
+                    <li><a href="#" class="text-white hover:text-gray-400"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#" class="text-white hover:text-gray-400"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#" class="text-white hover:text-gray-400"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div>
+                <p>&copy; 2024 Vento Blog. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
